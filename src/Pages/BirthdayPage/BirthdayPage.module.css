@@ -1,0 +1,40 @@
+.mainWrapper{
+    /* border: 3px solid blue; */
+    width: 99vw;
+    height: 99vh;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:palevioletred;
+    /* height: 200px; */
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: url("https://img.freepik.com/free-vector/hand-drawn-annual-calendar-template_23-2149716984.jpg");
+    
+}
+.secWrapper{
+    /* border: 2px solid ; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /* width: 60vw;
+    height: 99vh; */
+    flex-direction: column;
+}
+.Content{
+    /* position: relative; */
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    border-radius: 20px;
+    flex-direction: column;
+  border: 2px solid black;
+ padding-right: 2rem;
+ background-color:gainsboro;
+ border: 1px solid;
+ padding: 10px;
+ box-shadow: 5px 10px #888888;
+   
+}
